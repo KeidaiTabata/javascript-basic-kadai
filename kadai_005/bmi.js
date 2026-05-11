@@ -2,9 +2,8 @@ const weight = 68;
 const height= 1.7;
 
 const CalculateBMI = (w, h) => {
-    const bmi = w / (h ** 2) ;
-    return bmi;
+    return w / (h ** 2);
 }
 
-const ans = CalculateBMI(weight, height);
-console.log(ans);
+const bmi = CalculateBMI(weight, height);
+console.log(bmi);
