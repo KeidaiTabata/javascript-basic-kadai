@@ -4,7 +4,7 @@ const today = new Date();
 
 let [yeaer, month, date] = [
     today.getFullYear(),
-    today.getMonth(),
+    today.getMonth() + 1,
     today.getDate()
 ]
 
