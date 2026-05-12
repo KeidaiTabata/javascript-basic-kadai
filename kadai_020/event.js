@@ -1,7 +1,6 @@
 const dpBtn = document.getElementById('displayBtn');
-const after = document.getElementById('after');
-
+const text = document.getElementById('text');
 
 dpBtn.addEventListener('click', () => {
-    after.style.display = 'block';
+    text.textContent = 'ボタンをクリックしました';
 })
